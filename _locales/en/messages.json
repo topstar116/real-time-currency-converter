@@ -1,0 +1,88 @@
+{
+  "chrome_extension_name": {
+    "message": "Currency Converter",
+    "description": "chrome extension name"
+  },
+  "chrome_extension_description": {
+    "message": "A real-time currency converter",
+    "description": "chrome extension description"
+  },
+  "app_language": {
+    "message": "English",
+    "description": "native text of current language"
+  },
+  "app_theme_light": {
+    "message": "Light",
+    "description": "theme name of light"
+  },
+  "app_theme_dark": {
+    "message": "Dark",
+    "description": "theme name of dark"
+  },
+  "add_conversion_button_text": {
+    "message": "Add",
+    "description": "button for adding a new currency conversion"
+  },
+  "delete_conversion_button_text": {
+    "message": "Delete",
+    "description": "button to remove currency conversion"
+  },
+
+  "user_setting_form_item_preferred_api": {
+    "message": "{\"required_message\":\"You have to choose an api for updating exchange rate data\",\"label\":\"Preferred API\"}",
+    "description": "the form item of IUserSetting.preferredApi"
+  },
+  "user_setting_form_item_frequently_used_currencies": {
+    "message": "{\"label\":\"Frequently Used Currencies\"}",
+    "description": "the form item of IUserSetting.frequentlyUsedCurrencies"
+  },
+  "user_setting_form_item_update_frequency": {
+    "message": "{\"label\":\"Update Frequency\"}",
+    "description": "the form item label of IUserSetting.preferredApi"
+  },
+  "user_setting_form_item_enable_historical_reporting": {
+    "message": "{\"label\":\"Show Rates Chart\"}",
+    "description": "the form item label of IUserSetting.enableHistoricalReporting"
+  },
+  "user_setting_form_item_api_keys": {
+    "message": "{\"label\":\"API Keys\",\"placeholder\":\"api keys, one per line\",\"tips\":\"Click to jump to the key request page\"}",
+    "description": "the form item label of IUserSetting.apiKeys"
+  },
+  "user_setting_form_item_word_marking_rules": {
+    "message": "{\"label\":\"Word Marking Rules\",\"placeholder\":\"word marking rules,one per line\",\"tips\":\"A word-marking rule is a regular expression used to identify currency symbols, codes and amounts in text.\\nThere are 3 interpolations, {A}, {C} and {S}, which represent amount, currency code and currency symbol respectively\"}",
+    "description": "the form item label of IUserSetting.wordMarkingRules"
+  },
+  "user_setting_form_save_messages": {
+    "message": "{\"success\":\"Saved successfully!\",\"fail\":\"Failed to save,Cause: \\n $cause$\"}",
+    "description": "messages of the user setting form operations",
+    "placeholders": {
+      "cause": {
+        "content": "$1",
+        "example": "Unknown reason"
+      }
+    }
+  },
+  "exchange_rate_chart_duration": {
+    "message": "{\"week\":{\"label\":\"7 Days\",\"value\":7},\"month\":{\"label\":\"30 Days\",\"value\":30}}",
+    "description": "The time span of the exchange rate chart"
+  },
+  "exchange_rate_chart_options": {
+    "message": "{\"title\":\"Rates from $source$ in $days$ Days\"}",
+    "description": "The options i18n span of the exchange rate chart",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "CNY"
+      },
+      "days": {
+        "content": "$2",
+        "example": "7"
+      }
+    }
+  },
+
+  "context_menu_named_convert_to": {
+    "message": "Convert To",
+    "description": "name prefix for context menu named convert to ..."
+  }
+}

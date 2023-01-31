@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_chrome_extension_name__",
+  "description": "__MSG_chrome_extension_description__",
+  "default_locale": "zh",
+  "version": "0.0.1",
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "img/copper_coins.png",
+    "48": "img/copper_coins.png",
+    "128": "img/copper_coins.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "action": {
+    "default_title": "__MSG_chrome_extension_name__",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ]
+}

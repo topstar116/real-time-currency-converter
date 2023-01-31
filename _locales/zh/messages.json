@@ -1,0 +1,86 @@
+{
+  "chrome_extension_name": {
+    "message": "货币转换器",
+    "description": "扩展程序名称"
+  },
+  "chrome_extension_description": {
+    "message": "实时货币转换程序",
+    "description": "扩展程序描述"
+  },
+  "app_language": {
+    "message": "中文",
+    "description": "当前语言的母语文本"
+  },
+  "app_theme_light": {
+    "message": "浅色",
+    "description": "浅色主题的名称"
+  },
+  "app_theme_dark": {
+    "message": "深色",
+    "description": "深色主题的名称"
+  },
+  "add_conversion_button_text": {
+    "message": "新增",
+    "description": "用于添加一个新的货币转换的按钮"
+  },
+  "delete_conversion_button_text": {
+    "message": "删除",
+    "description": "用于删除货币转换的按钮"
+  },
+
+  "user_setting_form_item_preferred_api": {
+    "message": "{\"required_message\":\"必须选择一个用于更新汇率数据的api\",\"label\":\"首选API\"}",
+    "description": "用户设置表单项: IUserSetting.preferredApi"
+  },
+  "user_setting_form_item_frequently_used_currencies": {
+    "message": "{\"label\":\"常用货币\"}",
+    "description": "用户设置表单项: IUserSetting.frequentlyUsedCurrencies"
+  },
+  "user_setting_form_item_update_frequency": {
+    "message": "{\"label\":\"更新频率\"}",
+    "description": "用户设置表单项: IUserSetting.updateFrequency"
+  },
+  "user_setting_form_item_enable_historical_reporting": {
+    "message": "{\"label\":\"显示汇率图表\"}",
+    "description": "用户设置表单项: IUserSetting.enableHistoricalReporting"
+  },
+  "user_setting_form_item_api_keys": {
+    "message": "{\"label\":\"API密钥\",\"placeholder\":\"api密钥,每行一个\",\"tips\":\"点击跳转到密钥申请页面\"}",
+    "description": "用户设置表单项: IUserSetting.apiKeys"
+  },
+  "user_setting_form_item_word_marking_rules": {
+    "message": "{\"label\":\"划词规则\",\"placeholder\":\"划词规则,每行一个\",\"tips\":\"划词规则是一个用于识别文本中货币符号、代码及金额的正则表达式.\\n有3个插值,{A}、{C}和{S},分别代表金额、货币代码和货币符号\"}",
+    "description": "用户设置表单项: IUserSetting.wordMarkingRules"
+  },
+  "user_setting_form_save_messages": {
+    "message": "{\"success\":\"保存成功!\",\"fail\":\"保存失败,原因: \\n $cause$\"}",
+    "description": "用户表单操作用到的提示消息",
+    "placeholders": {
+      "cause": {
+        "content": "$1",
+        "example": "未知的错误"
+      }
+    }
+  },
+  "exchange_rate_chart_duration": {
+    "message": "{\"week\":{\"label\":\"7天\",\"value\":7},\"month\":{\"label\":\"30天\",\"value\":30}}",
+    "description": "汇率图表的时间跨度"
+  },
+  "exchange_rate_chart_options": {
+    "message": "{\"title\":\"$source$与其他货币$days$天汇率走势\"}",
+    "description": "汇率图表设置国际化配置",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "CNY"
+      },
+      "days": {
+        "content": "$2",
+        "example": "7"
+      }
+    }
+  },"context_menu_named_convert_to": {
+  "message": "转换为",
+  "description": "\"转换为\"上下文菜单的名称前缀"
+}
+}
